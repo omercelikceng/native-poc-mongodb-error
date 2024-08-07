@@ -1,0 +1,7 @@
+
+
+spring:
+  data:
+    mongodb:
+      live:
+        uri: mongodb://mongodb:27017/omer-live-db?connectTimeoutMS=120000
