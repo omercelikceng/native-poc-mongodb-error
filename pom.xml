@@ -50,14 +50,7 @@
                                 org.example.graalvm.mongodb.GraalVMMongoErrorApplication
                             </mainClass>
                             <image>
-                                <builder>cregistry.k2.net/devops/paketobuildpacks/builder-jammy-tiny:1.0.0</builder>
-                                <pullPolicy>IF_NOT_PRESENT</pullPolicy>
-                                <name>docker.io/library/native-poc-mongodb-error:${project.version}</name>
-                                <publish>true</publish>
-                                <env>
-                                    <BP_NATIVE_IMAGE>true</BP_NATIVE_IMAGE>
-                                    <SERVICE_BINDING_ROOT>/bindings</SERVICE_BINDING_ROOT>
-                                </env>
+                                <name>docker.io/library/native-poc-mongodb-solution:${project.version}</name>
                             </image>
                         </configuration>
                         <executions>
